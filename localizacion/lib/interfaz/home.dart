@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Demo',
+      title: 'Localizador',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'GeoRogerCORP'),
+      home: const MyHomePage(title: 'Geolocation'),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -53,10 +53,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 Alert(
                         type: AlertType.warning,
                         context: context,
-                        title: "ATENCION!!!",
+                        title: "ATENCION",
                         buttons: [
                           DialogButton(
-                              color: Colors.brown,
+                              color: Color.fromARGB(255, 125, 108, 102),
                               child: Text("SI"),
                               onPressed: () {
                                 PeticionesDB.EliminarTodas();
@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 Navigator.pop(context);
                               }),
                           DialogButton(
-                              color: Colors.orange,
+                              color: Color.fromARGB(255, 178, 161, 135),
                               child: Text("NO"),
                               onPressed: () {
                                 Navigator.pop(context);
@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   type: AlertType.info,
                   buttons: [
                     DialogButton(
-                        color: Colors.green,
+                        color: Color.fromARGB(255, 122, 169, 123),
                         child: Text("SI"),
                         onPressed: () {
                           PeticionesDB.GuardarPosicion(
@@ -98,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Navigator.pop(context);
                         }),
                     DialogButton(
-                        color: Colors.red,
+                        color: Color.fromARGB(255, 228, 133, 126),
                         child: Text("NO"),
                         onPressed: () {
                           Navigator.pop(context);
