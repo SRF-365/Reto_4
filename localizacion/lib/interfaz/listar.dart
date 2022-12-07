@@ -36,7 +36,7 @@ class _listarState extends State<listar> {
                             Alert(
                                     type: AlertType.warning,
                                     context: context,
-                                    title: "ATENCION!!!",
+                                    title: "ATENCION",
                                     buttons: [
                                       DialogButton(
                                           color: Colors.blue,
@@ -56,7 +56,7 @@ class _listarState extends State<listar> {
                                           })
                                     ],
                                     desc:
-                                        "Esta seguro que desea eliminar la ubicacion?")
+                                        "¿Esta seguro quiere eliminar la ubicacion?")
                                 .show();
                           },
                           icon: Icon(Icons.delete_outlined)),
