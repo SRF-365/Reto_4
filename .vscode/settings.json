@@ -1,0 +1,8 @@
+{
+    "dart.devToolsTheme": "dark",
+    "material-icon-theme.activeIconPack": "angular_ngrx",
+    "material-icon-theme.folders.theme": "specific",
+    "workbench.preferredHighContrastLightColorTheme": "Default High Contrast",
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "workbench.iconTheme": "simple-icons"
+}
