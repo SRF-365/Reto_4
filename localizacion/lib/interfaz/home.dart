@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Localizador',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.deepPurple,
       ),
       home: const MyHomePage(title: 'Geolocation'),
       debugShowCheckedModeBanner: false,
@@ -70,8 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 Navigator.pop(context);
                               })
                         ],
-                        desc:
-                            "Esta seguro que desea eliminar TODAS LAS UBICACIONES?")
+                        desc: "¿Quiere eliminar TODAS LAS UBICACIONES?")
                     .show();
               },
               icon: Icon(Icons.delete_forever))
